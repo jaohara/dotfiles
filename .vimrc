@@ -1,6 +1,7 @@
+" This line (which I think involves the runtimepath?) enables powerline
 set rtp+=/usr/lib/python3.8/site-packages/powerline/bindings/vim/
-set laststatus=2
-set t_Co=256
+set laststatus=2	" enables to use of a statusbar like powerline
+set t_Co=256		" enables 256 colors in vim	
 
-set number
-syntax on
+set number		" enables linenumbers
+syntax on		" enables syntax highlighting
