@@ -1,0 +1,10 @@
+# some configurations for nano
+
+# set tabs to 4 spaces rather than 8
+set tabsize 4
+
+# display line numbers
+set linenumbers
+
+# enable syntax highlighting
+include /usr/share/nano/*.nanorc

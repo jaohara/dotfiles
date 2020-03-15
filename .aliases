@@ -1,0 +1,22 @@
+# This is a file for my custom aliases
+
+# ls based aliases
+# '--color=always' for colors when passed to a pager like less
+# '-h' for human readable filesizes
+alias la="ls -a --color=always"
+alias ll="ls -lh --color=always"
+alias lla="ls -alh --color=always"
+alias tree="tree -C"
+
+# use human-readable sizes for du and df
+alias df="df -h"
+alias du="du -h"
+
+# make htop use tree by default
+alias htop="htop -t"
+
+# I don't really like vi.
+alias vi="vim"
+
+# bean.
+alias bean="echo 'Hello. This is a Bean. Beanareen.'"
