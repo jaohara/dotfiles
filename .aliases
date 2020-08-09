@@ -1,22 +1,35 @@
 # This is a file for my custom aliases
 
+# alias lsd to ls for ~sick icons and colors~
+alias ls="lsd"
+
 # ls based aliases
 # '--color=always' for colors when passed to a pager like less
 # '-h' for human readable filesizes
 alias la="ls -a --color=always"
 alias ll="ls -lh --color=always"
 alias lla="ls -alh --color=always"
-alias tree="tree -C"
+# alias tree="tree -C"
 
-# use human-readable sizes for du and df
+# replace "tree" with lsd in tree mode
+alias tree="lsd --tree"
+
+# use human-readable sizes for various commands
 alias df="df -h"
 alias du="du -h"
+alias free="free -h"
 
 # make htop use tree by default
 alias htop="htop -t"
 
 # I don't really like vi.
 alias vi="vim"
+
+# quick alias to open current directory in dolphin
+alias dolph="dolphin ."
+
+# use my API key and settings for clweather
+alias weather="clweather 685fc4bda57f930bd13d20cdb7981691 -pi"
 
 # bean.
 alias bean="echo 'Hello. This is a Bean. Beanareen.'"
