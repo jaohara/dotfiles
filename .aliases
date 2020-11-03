@@ -30,6 +30,3 @@ alias dolph="dolphin ."
 
 # use my API key and settings for clweather
 alias weather="clweather 685fc4bda57f930bd13d20cdb7981691 -pi"
-
-# bean.
-alias bean="echo 'Hello. This is a Bean. Beanareen.'"
