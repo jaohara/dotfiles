@@ -1,5 +1,7 @@
 # This is a file for my custom aliases
 
+STORAGEDIR=/home/john/Storage
+
 # alias lsd to ls for ~sick icons and colors~
 alias ls="lsd"
 
@@ -19,6 +21,12 @@ alias df="df -h"
 alias du="du -h"
 alias free="free -h"
 
+# navigate to remote storage
+if [ -d "$STORAGEDIR" ]; then
+	alias cds="cd $STORAGEDIR"
+fi
+	
+
 # make htop use tree by default
 alias htop="htop -t"
 
@@ -31,5 +39,13 @@ alias dolph="dolphin ."
 # use my API key and settings for clweather
 alias weather="clweather 685fc4bda57f930bd13d20cdb7981691 -pi"
 
-# bean.
-alias bean="echo 'Hello. This is a Bean. Beanareen.'"
+# speedometer without needing to memorize the args
+alias netspeed="speedometer -r eno1 -t eno1 -i 0.25"
+
+
+# Nordvpn stuff
+alias ns="nordvpn status"
+alias nc="nordvpn connect"
+alias nd="nordvpn disconnect"
+alias nke="nordvpn set killswitch enable"
+alias nkd="nordvpn set killswitch disable"
