@@ -7,4 +7,5 @@ set tabsize 4
 set linenumbers
 
 # enable syntax highlighting
-include /usr/share/nano/*.nanorc
+# include /usr/share/nano/*.nanorc
+include /usr/share/nano-syntax-highlighting/*.nanorc

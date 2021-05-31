@@ -48,3 +48,23 @@ alias nc="nordvpn connect"
 alias nd="nordvpn disconnect"
 alias nke="nordvpn set killswitch enable"
 alias nkd="nordvpn set killswitch disable"
+
+#systemctl shorthand
+alias sys="systemctl"
+alias sc="systemctl"
+
+#list installed figlet fonts
+alias lsfig="ls /usr/share/figlet/fonts"
+
+#search movies in a simple and quick way
+alias vs="ls /home/john/Storage/Video/Movies | grep -i"
+
+#ssh into pi server
+alias sshp="ssh pi@homeserver"
+
+#ssh into web hosting
+alias dreamhost="ssh johnaohara@jaohara.com"
+
+#Alias to use TypeScript compiler with a more modern target
+alias tscm="tsc -t 'ES2017'"
+

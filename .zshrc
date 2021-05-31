@@ -22,7 +22,7 @@ fi
 
 # add ~/.local/bin to the path
 if [[ -e "$LOCALBINDIR" && -d "$LOCALBINDIR" ]]; then
-	PATH="$PATH:$$LOCALBINDIR"
+	PATH="$PATH:$LOCALBINDIR"
 fi
 
 # add ~/shell-scripting to the path 
