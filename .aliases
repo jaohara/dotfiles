@@ -49,27 +49,10 @@ alias sc="systemctl"
 #list installed figlet fonts
 alias lsfig="ls /usr/share/figlet/fonts"
 
-#search movies in a simple and quick way
-alias vs="ls /home/john/Storage/Storage/Video/Movies | grep -i"
+# source a python project's venv
+alias usevenv="source .venv/bin/activate"
 
-#ssh into web hosting
-alias dreamhost="ssh johnaohara@jaohara.com"
-
-#Alias to use TypeScript compiler with a more modern target
-alias tscm="tsc -t 'ES2017'"
-
-# quick access stuff for my portfolio project
-alias pb="cd ~/Portfolio/Backend"
-alias pf="cd ~/Portfolio/Frontend"
-alias pbr="pb && npm run dev"
-alias pfr="pf && npm run start"
-
-# alias for java compiler options
-alias javacx="javac -Xlint:unchecked,rawtypes"
-alias javacxd="javacx -Xdoclint:all"
-
-# alias for running android-studio from flatpak
-alias android-studio="flatpak run com.google.AndroidStudio"
-
-# alias for android studio linter
-alias alint="/home/john/.android-sdks/tools/bin/lint"
+# git shortcuts
+alias gitaa="git add -A"
+alias gitcm="git commit -m"
+alias gits="git status"

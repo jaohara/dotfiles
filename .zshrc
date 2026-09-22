@@ -4,16 +4,16 @@ ALIASESFILE="$HOME/.dotfiles/.aliases"
 LOCALBINDIR="$HOME/.local/bin"
 
 # Rust binaries installed via cargo
-CARGODIR="$HOME/.cargo/bin"
+#CARGODIR="$HOME/.cargo/bin"
 
 # I'm using this directory as my shell scripting playground while I learn how
 # to better write bash scripts. This probably won't exist, and is probably
 # serves the same function as $LOCALBINDIR
-SHELLSCRIPDIR="$HOME/shell-scripting"
+#SHELLSCRIPTDIR="$HOME/shell-scripting"
 
 # This might be in a different location, but this is how I have them on 
 # my current machine
-COWFILEDIR="$HOME/.dotfiles/.cowfiles/cowsay-files/cows"
+#COWFILEDIR="$HOME/.dotfiles/.cowfiles/cowsay-files/cows"
 
 # source my aliases
 if [[ -e "$ALIASESFILE" && -f "$ALIASESFILE" ]]; then
@@ -40,6 +40,8 @@ if [[ -e "$COWFILEDIR" && -d "$COWFILEDIR" ]]; then
 	COWPATH="$COWPATH:$COWFILEDIR"
 fi
 
+#GOPATH="/home/john/.go"
+#PATH="$GOPATH/bin:$PATH	"
 
 # some color man pages
 export LESS_TERMCAP_mb=$'\E[01;32m'

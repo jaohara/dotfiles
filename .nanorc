@@ -8,4 +8,4 @@ set linenumbers
 
 # enable syntax highlighting
 # include /usr/share/nano/*.nanorc
-include /usr/share/nano-syntax-highlighting/*.nanorc
+#include /usr/share/nano-syntax-highlighting/*.nanorc
